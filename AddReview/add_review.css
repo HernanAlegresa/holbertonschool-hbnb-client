@@ -7,17 +7,35 @@ body {
 }
 
 header {
-    background-color: #ff9800;
+    background-color: #79cce7;
     padding: 1rem;
-    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
 
 .logo {
-    height: 50px;
+    height: 60px;
+}
+
+nav a, .login-button {
+    color: #f6fbf8;
+    text-decoration: none;
+    font-size: 30px;
+    background-color:#060606;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover, .login-button:hover {
+    background-color: #e08900;
 }
 
 footer {
-    background-color: #ff9800;
+    background-color: #0c4458;
     color: #fff;
     text-align: center;
     padding: 15px 0;
@@ -50,7 +68,7 @@ textarea {
 }
 
 input[type="submit"], .submit-review {
-    background-color: #ff9800;
+    background-color: #3f853f;
     color: #fff;
     border: none;
     padding: 10px;

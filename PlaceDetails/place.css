@@ -7,33 +7,36 @@ body {
 }
 
 header {
-    background-color: #ff9800;
+    background-color: #79cce7;
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 
 .logo {
-    height: 50px;
+    height: 60px;
 }
 
 nav a, .login-button {
-    color: #fff;
+    color: #f6fbf8;
     text-decoration: none;
-    font-size: 16px;
-    background-color: #333;
-    padding: 10px 20px;
+    font-size: 30px;
+    background-color:#060606;
+    border: none;
+    padding: 10px 40px;
     border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 nav a:hover, .login-button:hover {
-    background-color: #444;
+    background-color: #e08900;
 }
 
+
 footer {
-    background-color: #ff9800;
+    background-color: #0c4458;
     color: #fff;
     text-align: center;
     padding: 15px 0;
@@ -99,5 +102,5 @@ main {
 }
 
 .submit-review:hover {
-    background-color: #45a049;
+    background-color: #e08900;
 }
