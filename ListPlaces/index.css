@@ -1,4 +1,4 @@
-/* Estilos generales compartidos */
+/* CSS para pag de index */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,35 +7,35 @@ body {
 }
 
 header {
-    background-color: #ff9800;
+    background-color: #79cce7;
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 
 .logo {
-    height: 50px;
+    height: 60px;
 }
 
 nav a, .login-button {
-    color: #fff;
+    color: #f6fbf8;
     text-decoration: none;
-    font-size: 16px;
-    background-color: transparent; /* Fondo transparente para el login */
+    font-size: 30px;
+    background-color:#060606;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 nav a:hover, .login-button:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Efecto hover ligero */
+    background-color: #ebe3e333;
 }
 
 footer {
-    background-color: #ff9800;
+    background-color: #0c4458;
     color: #fff;
     text-align: center;
     padding: 15px 0;
@@ -54,20 +54,20 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #333;
+    color: #0c4458;
 }
 
 #filter {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 10px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: flex-start; /* Alineación a la izquierda */
+    justify-content: flex-start;
     align-items: center;
-    max-width: 600px; /* Ancho fijo para alineación */
-    margin: 0 auto 20px; /* Centrar el filtro y añadir margen inferior */
+    max-width: 600px;
+    margin: 0 auto 40px;
 }
 
 #country-filter {
@@ -75,7 +75,7 @@ h1 {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ddd;
-    width: 200px; /* Ancho fijo para el select */
+    width: 200px;
 }
 
 .places-list {
@@ -110,13 +110,13 @@ h1 {
 }
 
 .details-button {
-    background-color: #ff9800;
+    background-color: #3f853f;
     border: none;
     color: white;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 22px;
     transition: background-color 0.3s ease;
     margin-top: 10px;
 }

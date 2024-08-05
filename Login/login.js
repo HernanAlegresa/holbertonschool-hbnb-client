@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const password = document.getElementById('password').value;
 
           try {
-              const response = await fetch('http://127.0.0.1:5000/login', { // url de la api
+              const response = await fetch('http://127.0.0.1:5000/login', {
                   method: 'POST',
                   headers: {
                       'Content-Type': 'application/json'
@@ -19,13 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
               if (response.ok) {
                   const data = await response.json();
                   document.cookie = `token=${data.access_token}; path=/`;
-                  window.location.href = 'index.html'; // vuelve a la pagina principal
+                  window.location.href = 'index.html';
               } else {
                   alert('Login failed: ' + response.statusText);
               }
           } catch (error) {
               console.error('Error during login:', error);
-              alert('An error occurred during login. Please try again.');
+              alert('Log in Error. Please try again.');
           }
       });
   }
